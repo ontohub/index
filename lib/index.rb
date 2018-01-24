@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
+require 'chewy'
 require 'index/version'
-
-# Contains all search index files
-module Index
-end
+require 'index/repository_index'
