@@ -40,6 +40,8 @@ tmp/**/*
 # Ignore Byebug command history file.
 .byebug_history
 
+.rspec_status
+
 # Ignore local configuration files
 config/settings.local.yml
 config/settings/*.local.yml

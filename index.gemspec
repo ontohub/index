@@ -38,11 +38,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-rescue', '~> 1.4.4'
   spec.add_development_dependency 'pry-stack_explorer', '~> 0.4.9.2'
 
-  # Testing
-  spec.add_development_dependency 'faker', '~> 1.8.4'
-  spec.add_development_dependency 'fuubar', '~> 2.3.0'
-  spec.add_development_dependency 'rspec', '~> 3.7.0'
-
   # CI services
   spec.add_development_dependency 'rubocop', '~> 0.52.1'
 
