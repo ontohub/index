@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-stack_explorer', '~> 0.4.9.2'
 
   # CI services
-  spec.add_development_dependency 'rubocop', '~> 0.52.1'
+  spec.add_development_dependency 'rubocop', '~> 0.53.0'
 
   # We want to have these in the production environment as well in case we need
   # to debug the application:
