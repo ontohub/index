@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'chewy', '~> 0.10.1'
+  spec.add_dependency 'chewy', '~> 5.0.0'
 
   # General Development
   spec.add_development_dependency 'bundler', '~> 1.11'
